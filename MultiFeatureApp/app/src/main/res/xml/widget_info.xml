@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Define the widget's characteristics -->
+    <minWidth>200dp</minWidth>
+    <minHeight>200dp</minHeight>
+    <updatePeriodMillis>1800000</updatePeriodMillis> <!-- Updates every 30 minutes -->
+    <initialLayout>@layout/widget_layout</initialLayout> <!-- Reference the layout file for the widget -->
+    <widgetCategory>home_screen</widgetCategory>
+</appwidget-provider>
